@@ -52,7 +52,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
-	sub_dir: "hw",
+/*	sub_dir: "hw",*/
 	prefer: true,
 	soc_specific: true,
 }
@@ -325,7 +325,7 @@ prebuilt_etc_xml {
 	name: "ReferenceFeature",
 	owner: "lge",
 	src: "proprietary/vendor/etc/lm/ReferenceFeature.xml",
-	sub_dir: "lm",
+/*	sub_dir: "lm",*/
 	soc_specific: true,
 }
 
